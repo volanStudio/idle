@@ -1,0 +1,88 @@
+{
+  "name": "volanStudio/idle",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Idle",
+  "branch": "master",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/volanStudio/idle",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/idle",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "idle",
+      "subhead": "Understanding static site generators",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "idle: Understanding static site generators",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "volanStudio",
+          "repo": "idle"
+        }
+      ],
+      "text": "v0.1.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p>I&apos;m using this repo to explore the ideas of static site generation using node. Promises seems like a weird way to do that and I like to try out weird stuff.</p>\n<p>How to run this thang</p>\n<pre><span class=\"hljs-built_in\">npm</span> start</pre><p>That fires up index.js - I imagine I&apos;ll change all of this eventually, but it is a fun place to start.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/volanStudio/idle",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/volanStudio",
+          "text": "volanStudio"
+        }
+      ]
+    }
+  ]
+}
